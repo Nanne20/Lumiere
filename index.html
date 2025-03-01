@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" media="screen and max-width: 768px" href="css/mobile.css">>
+	<link rel="stylesheet" href="css/font-awesome.css">
+    <script src="js/jquery-3.1.0.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
+    <title>Lumiére</title>
+</head>
+<body>
+    <header>
+		<div class="header">
+			<div class="logo">
+				<a href="#inicio" class="logo"><img src="img/logo-azul.png" alt=""></a>
+			</div>
+			
+			<div class="nav">
+				<nav>
+					<ul>
+						<li><a href="#inicio">New Arrivals</a></li>
+						<li><a href="#servicios">Services</a></li>
+						<li><a href="#products">Jewellery</a></li>
+						<li><a href="#contacto">Contact us</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		
+	</header>
+
+    <div id="inicio" class="slider">
+		<!-- fade css -->
+		<div class="myslide fade">
+			<div class="content">
+				<h1>New Collection</h1>
+                <p>The perfect theme for this season</p>
+			</div>
+			<img src="img/Slider-1.png" style="width: 100%; height: 100%;">
+		</div>
+		
+		<div class="myslide fade">
+			<div class="content">
+				<h1>Say yes</h1>
+                <p>Show your love with the perfect ring</p>
+			</div>
+			<img src="img/Slider-2.jpg" style="width: 100%; height: 100%;">
+		</div>
+		
+		<div class="myslide fade">
+			<div class="content">
+				<h1>Say it in gold</h1>
+                <p>New swatches arrived</p>
+			</div>
+			<img src="img/Slider-3.jpg" style="width: 100%; height: 100%;">
+		</div>
+		
+		<div class="myslide fade">
+			<div class="content">
+				<h1>Be the Lumiére</h1>
+                <p>Light up your image</p>
+			</div>
+			<img src="img/Slider-4.jpg" style="width: 100%; height: 100%;">
+		</div>
+		
+		<div class="myslide fade">
+			<div class="content">
+				<h1>Be Natural</h1>
+				<p>Look and<br>feel confident</p>
+			</div>
+			<img src="img/Slider-5.jpg" style="width: 100%; height: 100%;">
+		</div>
+		<!-- /fade css -->
+		
+		<!-- onclick js -->
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+		
+		<div class="dotsbox" style="text-align:center">
+			<span class="dot" onclick="currentSlide(1)"></span>
+			<span class="dot" onclick="currentSlide(2)"></span>
+			<span class="dot" onclick="currentSlide(3)"></span>
+			<span class="dot" onclick="currentSlide(4)"></span>
+			<span class="dot" onclick="currentSlide(5)"></span>
+		</div>
+		<!-- /onclick js -->
+	</div>
+
+    <section id="servicios" class="services">
+        <div id="s1" class="service service1">
+            <img src="img/servicios-azul-2.png" alt="repair">
+            <p class="">Alterations, repairs <br> & ring re-sizing</p>
+        </div>
+
+        <div id="s2" class="service service2">
+            <img src="img/servicios-azul-1.png" alt="cleaning">
+            <p class="">Jewellery cleaning</p>
+        </div>
+
+        <div id="s3" class="service service3">
+            <img src="img/servicios-azul-3.png" alt="valuations">
+            <p class="">Valuations</p>
+        </div>
+    </section>
+
+    <div id="carrusel" class="slideshow">
+		<ul class="carrusel">
+			<li>
+				<img src="img/1.png" alt="">
+			</li>
+			<li>
+				<img src="img/2.png" alt="">
+			</li>
+			<li>
+				<img src="img/3.png" alt="">
+			</li>
+			<li>
+				<img src="img/4.png" alt="">
+			</li>
+		</ul>
+
+		<ol class="pagination">
+			
+		</ol>
+	
+		<div class="left">
+			<span class="fa fa-chevron-left"></span>
+		</div>
+
+		<div class="right">
+			<span class="fa fa-chevron-right"></span>
+		</div>
+
+	</div>
+    
+    <section id="products" class="container ptb-1 txt-center">
+        <div class="flex pb-1 txt-center">
+            <div class="flex-box product">
+                <div class="imagen">
+                    <img src="img/producto-1.png" alt="rings">
+                </div>
+                
+                <div>
+                    <button class="btn">Discover rings</button>
+                </div>
+            </div>
+    
+            <div class="flex-box product" >
+                <div class="imagen">
+                    <img src="img/producto-2.png" alt="necklaces">
+                </div>
+                <div>
+                    <button class="btn">Discover necklaces</button>
+                </div>
+            </div>
+    
+            <div class="flex-box product" >
+                <div class="imagen">
+                    <img src="img/producto-3.png" alt="bracelets">
+                </div>
+                
+                <div>
+                    <button class="btn">Discover bracelets</button>
+                </div>
+               
+            </div>
+        </div>
+        
+    </section>
+
+	
+
+    <footer id= "contacto" class="bk-1">
+       <div class="container">
+            <div class="flex">
+                <div class="contact txt-white">
+                    <h3 >Contact</h3>
+                    <p class="link">Any questions? Get on touch with us</p>
+                    <p class="link">Phone number: +591 12345678</p>
+                    <p class="link">Email: lumiere.corp@gmail.com</p>
+                </div>
+                    <a class="logo" href="index.html"><img src="img/logo-blanco.png" alt=""></a>
+            </div>
+       </div>      
+    </footer>
+
+    <script src="js/java.js"></script>
+	<script src="js/animation-gsap.js"></script>
+</body>
+</html>

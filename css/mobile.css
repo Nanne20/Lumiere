@@ -1,0 +1,91 @@
+/*slider*/
+    .myslide {
+        height: 300px; /* Reducir la altura para adaptarse a dispositivos móviles */
+    }
+
+    .prev,
+    .next {
+        font-size: 4vw; /* Reducir el tamaño de fuente de los botones para dispositivos móviles */
+    }
+
+    .dotsbox {
+        bottom: 10px; /* Ajustar la posición de los puntos indicadores */
+    }
+
+    .dot {
+        width: 10px; /* Reducir el tamaño de los puntos indicadores */
+        height: 10px;
+        margin: 0 5px; /* Reducir el margen entre los puntos */
+    }
+
+    .content {
+        top: 60%; /* Ajustar la posición del contenido */
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .content h1 {
+        font-size: 6vw; /* Reducir el tamaño de fuente del título */
+        margin-bottom: 5px; /* Reducir el margen inferior del título */
+    }
+
+    .content p {
+        font-size: 3vw; /* Reducir el tamaño de fuente del párrafo */
+    }
+
+    .sign a {
+        font-size: 3vw; /* Reducir el tamaño de fuente del enlace de firma */
+    }
+
+    .services {
+        display: block; /* Cambiar a un diseño de bloque en dispositivos móviles */
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 40px; /* Reducir el espacio superior */
+        padding-bottom: 40px; /* Reducir el espacio inferior */
+    }
+
+    .services .service {
+        margin-bottom: 30px; /* Añadir espacio entre los servicios */
+    }
+
+    .services p {
+        font-size: 1.1em; /* Reducir el tamaño de fuente del texto */
+    }
+
+    .services img {
+        width: 80%; /* Hacer que las imágenes ocupen todo el ancho */
+    }
+
+
+
+
+/*productos*/
+
+.flex{
+    display: flex;
+    flex-direction: column;
+ }
+ 
+ .flex-box{
+    flex:1;
+ }
+
+ .container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 30px;
+}   
+
+ #contacto{
+    text-align: center;
+}
+
+#contacto img{
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+#contacto .contact{
+    padding-bottom: 30px;
+}
